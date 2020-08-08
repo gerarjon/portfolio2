@@ -1,38 +1,86 @@
+/* Hover Effect */
+.hover-effect {
+  position: relative;
+}
+
+.hover-effect:hover .hover-effect-accent .img-img {
+  transform: translate(7px, -7px);
+}
+
+.hover-effect .hover-effect-accent {
+  background: rgb(145, 50, 235);
+  height: 275px;
+ 
+}
+
+/* top left corner corner */
+.hover-effect .hover-effect-tl-corner {
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid rgb(145, 50, 235);
+  width: 0;
+  height: 0;
+  transition: .1s;
+  transform: scale(0);
+  transform-origin: bottom left;
+}
+
+.hover-effect:hover .hover-effect-tl-corner {
+  transform: scale(1);
+}
+
+/* bottom right corner */
+.hover-effect .hover-effect-br-corner {
+  position: absolute;
+  border-right: 7px solid transparent;
+  border-top: 7px solid rgb(145, 50, 235);
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -7px;
+  transition: .1s ease-out;
+  transform: scale(0);
+  transform-origin: bottom left;
+}
+
+.hover-effect:hover .hover-effect-br-corner {
+  transform: scale(1);
+}
+
+/* Grid */
 .img-grid {
   display: grid;
-  margin: 20px auto;
+  margin: 20px 5px;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
 
-.image-card {
-  height: 400px;
-}
-
 .img-img {
-  height: 250px;
+  height: 275px;
   width: 100%;
   object-fit: cover;
+  transition: 0.1s ease-out;
 }
 
 .img-action {
-  margin: 20px 40px;
-  text-align: center;
+  margin: 10px 5px;
 }
 
 .img-action-links {
-  display: flex;
-  justify-content: space-evenly;
   font-size: 1.2rem;
 }
 
+.img-action-links a {
+  padding-right: 1rem;
+}
+
 .img-action-links a:hover, .img-action-links a:focus {
-  color: rgb(86, 0, 167);
+  color: rgb(182, 107, 252);
 }
 
 .card-title {
   font-size: 1.5rem;
   font-weight: 600;
+  color: #fff;
 }
 
 @media only screen and (max-width: 850px) {

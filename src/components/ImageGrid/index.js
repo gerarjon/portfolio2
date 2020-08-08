@@ -9,8 +9,13 @@ const ImageGrid = () => {
       <div className="img-grid">
         { Data.map( data => (
           <div className="img-card" key={data.id}>
-            <div>
-              <img className="img-img" alt={data.title} src={process.env.PUBLIC_URL + "/assets/images/" + data.image} />
+            <div className="hover-effect">
+              <div className="hover-effect-tl-corner"></div>
+              <div className="hover-effect-br-corner"></div>
+              <div className="hover-effect-accent">
+                <img className="img-img" alt={data.title} src={process.env.PUBLIC_URL + "/assets/images/" + data.image} />
+              </div>
+              
             </div>
             <div className="img-action">
               <span className="card-title">{data.title}</span>
