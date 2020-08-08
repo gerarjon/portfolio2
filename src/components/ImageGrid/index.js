@@ -21,7 +21,7 @@ const ImageGrid = () => {
               <span className="card-title">{data.title}</span>
               <div className="img-action-links">
                 <a href={data.github} target="_blank" rel="noopener noreferrer">Github</a>
-                <a href={data.link} target="_blank" rel="noopener noreferrer">Deployed</a>
+                <a href={data.link} target="_blank" rel="noopener noreferrer">Deployed <i class="fas fa-external-link-alt"></i></a>
               </div>
             </div>
           </div>
