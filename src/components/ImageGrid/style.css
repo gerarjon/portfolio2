@@ -1,0 +1,42 @@
+.img-grid {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.image-card {
+  height: 400px;
+}
+
+.img-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-action {
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.img-action-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+}
+
+.img-action-links a:hover, .img-action-links a:focus {
+  color: rgb(86, 0, 167);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 850px) {
+  .img-grid {
+    grid-template-columns: 1fr;
+  }
+}
