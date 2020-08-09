@@ -9,7 +9,7 @@
 
 .hover-effect .hover-effect-accent {
   background: rgb(145, 50, 235);
-  height: 275px;
+  height: 300px;
  
 }
 
@@ -55,7 +55,7 @@
 }
 
 .img-img {
-  height: 275px;
+  height: 300px;
   width: 100%;
   object-fit: cover;
   transition: 0.1s ease-out;
@@ -86,5 +86,8 @@
 @media only screen and (max-width: 850px) {
   .img-grid {
     grid-template-columns: 1fr;
+  }
+  .img-img, .hover-effect .hover-effect-accent {
+    height: 275px;
   }
 }
