@@ -7,6 +7,10 @@
   margin: 2rem auto;
 }
 
+.footer-title {
+  margin: 1rem;
+}
+
 /* Skills Section */
 
 .skills-section {
@@ -16,5 +20,5 @@
 }
 
 .skills-section svg{
-  width: 10%;
+  width: 6%;
 }

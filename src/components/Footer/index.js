@@ -7,7 +7,7 @@ const Footer = () => {
     <Container>
       {/* Skills */}
       <div className="footer">
-        Skills
+        <span className="footer-title">Skills</span>
         <div class="skills-section">
             {/* HTML */}
             <svg viewBox="0 0 128 128">

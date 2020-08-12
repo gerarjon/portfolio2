@@ -13,7 +13,7 @@ const ImageGrid = () => {
               <div className="hover-effect-tl-corner"></div>
               <div className="hover-effect-br-corner"></div>
               <div className="hover-effect-accent">
-                <img className="img-img" alt={data.title} src={process.env.PUBLIC_URL + "/assets/images/" + data.image} />
+                <a href={data.link} target="_blank" rel="noopener"><img className="img-img" alt={data.title} src={process.env.PUBLIC_URL + "/assets/images/" + data.image} /></a>
               </div>
               
             </div>
