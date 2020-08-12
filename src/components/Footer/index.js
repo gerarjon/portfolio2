@@ -1,11 +1,9 @@
 import React from 'react';
 import './style.css';
-import Container from '../Container';
 
 const Footer = () => {
   return (
-    <Container>
-      {/* Skills */}
+      /* Skills */
       <div className="footer">
         <span className="footer-title">Skills</span>
         <div class="skills-section">
@@ -53,7 +51,6 @@ const Footer = () => {
             </svg>
         </div>
       </div>
-    </Container>
   )
 }
 
