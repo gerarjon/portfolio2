@@ -21,6 +21,11 @@ const ImageGrid = () => {
                 <a href={data.github} target="_blank" rel="noopener noreferrer">Github</a>
                 <a href={data.link} target="_blank" rel="noopener noreferrer">Deployed <i class="fas fa-external-link-alt"></i></a>
               </div>
+              <div className="tags-container">
+                {data.tags.map( tag => (
+                  <span className="tag">{tag}</span>
+                ))}
+              </div>
             </div>
           </div>
         ))

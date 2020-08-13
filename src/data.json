@@ -5,14 +5,16 @@
     "link" : "https://meme-house-ggm.herokuapp.com/",
     "image" : "meme-house.png",
     "logo" : "meme-house-logo.png",
-    "id" : 1
+    "id" : 1,
+    "tags" : ["Mongoose", "Passport.js", "Express", "Bulma.css", "React"]
   },
   {
     "title" : "React Google Books",
     "github" : "https://github.com/gerarjon/react-google-books",
     "link" : "https://reactgooglebooks-gs.herokuapp.com/",
     "image" : "react-google-books.gif",
-    "id" : 2
+    "id" : 2,
+    "tags" : ["Mongoose", "Express", "Matierialize", "Axios", "React"]
   },
   {
     "title" : "Twice Clicky Game",
@@ -20,7 +22,8 @@
     "link" : "https://gerarjon.github.io/twice-clicky-game",
     "image" : "clicky-game.gif",
     "logo" : "clicky-game-logo.png",
-    "id" : 3
+    "id" : 3,
+    "tags" : ["React"]
   },
   {
     "title" : "Grouper",
@@ -28,21 +31,24 @@
     "link": "https://pure-meadow-76725.herokuapp.com/",
     "image" : "grouper-gif.gif",
     "logo" : "grouper-logo.png",
-    "id" : 4
+    "id" : 4,
+    "tags" : ["jQuery", "mySQL", "Matierialize", "Node.js"]
   },
   {
     "title" : "Quang's Burgers",
-    "github" : "https://github.com/gerarjon/FriendFinder",
-    "link" : "https://friendfinder-gs.herokuapp.com/",
+    "github" : "https://github.com/gerarjon/Burger",
+    "link" : "https://burger-gs.herokuapp.com/burgers",
     "image" : "burger.png",
     "logo" : "burger-logo.png",
-    "id" : 5
+    "id" : 5,
+    "tags" : ["Express", "Handlebars", "mySQL"]
   },
   {
     "title" : "Friend Finder",
     "github" : "https://github.com/gerarjon/FriendFinder",
     "link" : "https://friendfinder-gs.herokuapp.com/",
     "image" : "friendfinder.png",
-    "id" : 6
+    "id" : 6,
+    "tags" : ["Node.js", "Express"]
   }
 ]

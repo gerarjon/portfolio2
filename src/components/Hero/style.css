@@ -21,7 +21,7 @@
   color: rgb(182, 107, 252);
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   #home {
     height: 30vh;
   }
