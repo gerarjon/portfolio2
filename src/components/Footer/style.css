@@ -16,7 +16,7 @@
 .skills-section {
   display: flex;
   padding: 0.8rem 1.2rem;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .skills-section svg{

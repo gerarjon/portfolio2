@@ -14,7 +14,7 @@
     "link" : "https://reactgooglebooks-gs.herokuapp.com/",
     "image" : "react-google-books.gif",
     "id" : 2,
-    "tags" : ["Mongoose", "Express", "Matierialize", "Axios", "React"]
+    "tags" : ["Mongoose", "Express", "Materialize", "Axios", "React"]
   },
   {
     "title" : "Twice Clicky Game",
@@ -32,7 +32,7 @@
     "image" : "grouper-gif.gif",
     "logo" : "grouper-logo.png",
     "id" : 4,
-    "tags" : ["jQuery", "mySQL", "Matierialize", "Node.js"]
+    "tags" : ["jQuery", "mySQL", "Materialize", "Node.js"]
   },
   {
     "title" : "Quang's Burgers",
