@@ -1,12 +1,12 @@
 [
   {
-    "title" : "Grouper",
-    "github" : "https://github.com/sjconst/mvc-group-project",
-    "link": "https://pure-meadow-76725.herokuapp.com/",
-    "image" : "grouper-gif.gif",
-    "logo" : "grouper-logo.png",
+    "title" : "Flash Cards",
+    "github" : "https://github.com/gerarjon/flash-cards",
+    "link": "https://flashcards-gs.herokuapp.com/flash-cards/",
+    "image" : "flashcards-submit.gif",
+    "logo" : "FLASHCARDlogo.png",
     "id" : 4,
-    "tags" : ["jQuery", "mySQL", "Materialize", "Node.js"]
+    "tags" : ["React", "Bulma", "Node.js"]
   },
   {
     "title" : "React Google Books",
