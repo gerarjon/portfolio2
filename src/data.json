@@ -1,5 +1,14 @@
 [
   {
+    "title" : "Event Booking",
+    "github" :  "https://github.com/gerarjon/event-booking",
+    "link" : "https://event-booking-gs.herokuapp.com/events",
+    "image" : "event-booking.png",
+    "logo" : "",
+    "id" : 1,
+    "tags" : ["MongoDB", "GraphQL", "Express", "Bulma.css", "React", "Node.js"]
+  },
+  {
     "title" : "Flash Cards",
     "github" : "https://github.com/gerarjon/flash-cards",
     "link": "https://flashcards-gs.herokuapp.com/flash-cards/",
@@ -17,24 +26,6 @@
     "tags" : ["Mongoose", "Express", "Materialize", "Axios", "React"]
   },
   {
-    "title" : "Meme House",
-    "github" :  "https://github.com/madeleineprak/Meme-House",
-    "link" : "https://meme-house-ggm.herokuapp.com/",
-    "image" : "meme-house.png",
-    "logo" : "meme-house-logo.png",
-    "id" : 1,
-    "tags" : ["Mongoose", "Passport.js", "Express", "Bulma.css", "React"]
-  },
-  {
-    "title" : "Twice Clicky Game",
-    "github" : "https://github.com/gerarjon/twice-clicky-game",
-    "link" : "https://gerarjon.github.io/twice-clicky-game",
-    "image" : "clicky-game.gif",
-    "logo" : "clicky-game-logo.png",
-    "id" : 3,
-    "tags" : ["React"]
-  },
-  {
     "title" : "Quang's Burgers",
     "github" : "https://github.com/gerarjon/Burger",
     "link" : "https://burger-gs.herokuapp.com/burgers",
@@ -42,13 +33,5 @@
     "logo" : "burger-logo.png",
     "id" : 5,
     "tags" : ["Express", "Handlebars", "mySQL"]
-  },
-  {
-    "title" : "Friend Finder",
-    "github" : "https://github.com/gerarjon/FriendFinder",
-    "link" : "https://friendfinder-gs.herokuapp.com/",
-    "image" : "friendfinder.png",
-    "id" : 6,
-    "tags" : ["Node.js", "Express"]
   }
 ]
