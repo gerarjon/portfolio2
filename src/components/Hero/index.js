@@ -3,7 +3,7 @@ import './style.css';
 
 function Hero() {
   return(
-    <div id="home">
+    <section id="home">
       <div className="title-container">
         <h5>
           Gerar Suaverdez
@@ -21,7 +21,7 @@ function Hero() {
           <li><a href="assets/documents/GSuaverdez_Resume.pdf" target="_blank">Resumé</a></li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
 

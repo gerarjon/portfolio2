@@ -4,9 +4,9 @@ import './style.css';
 
 const ImageGrid = () => {
   return(
-      <div className="img-grid">
+      <section className="img-grid">
         { Data.map( data => (
-          <div className="img-card" key={data.id}>
+          <article className="img-card" key={data.id}>
             <div className="hover-effect">
               <div className="hover-effect-tl-corner"></div>
               <div className="hover-effect-br-corner"></div>
@@ -30,10 +30,10 @@ const ImageGrid = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </article>
         ))
         }
-      </div>  
+      </section>  
   )
 }
 
