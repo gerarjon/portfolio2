@@ -17,7 +17,7 @@
     "logo" : "FLASHCARDlogo.png",
     "id" : 2,
     "tags" : ["React", "Bulma", "Node.js", "Heroku"],
-    "description": "A study tool to practice Japanese (and pontentially other languages). Main activities are flashcards and phrase translations."
+    "description": "A study tool to practice Japanese (and potentially other languages). Main activities are flashcards and phrase translations."
   },
   {
     "title" : "React Google Books",
