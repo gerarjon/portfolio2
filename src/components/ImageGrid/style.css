@@ -71,6 +71,7 @@
 
 .img-action-links a {
   margin-right: 1rem;
+
 }
 
 .img-action-links a:hover, .img-action-links a:focus {
@@ -81,6 +82,12 @@
   font-size: 1.5rem;
   font-weight: 600;
   color: #fff;
+  margin-bottom: 5px;
+}
+
+.img-description {
+  color: rgb(231, 231, 231);
+  margin-bottom: 5px;
 }
 
 /* Tags */ 

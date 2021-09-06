@@ -16,14 +16,17 @@ const ImageGrid = () => {
               
             </div>
             <div className="img-action">
-              <span className="card-title">{data.title}</span>
+              <div className="card-title">{data.title}</div>
+              <div className="img-description">
+                {data.description}
+              </div>
               <div className="img-action-links">
-                <a href={data.github} target="_blank" rel="noopener noreferrer">Github</a>
-                <a href={data.link} target="_blank" rel="noopener noreferrer">Deployed <i class="fas fa-external-link-alt"></i></a>
+                <a href={data.github} target="_blank" rel="noopener noreferrer">Github <i className="fab fa-github"></i></a>
+                <a href={data.link} target="_blank" rel="noopener noreferrer">Deployed <i className="fas fa-external-link-alt"></i></a>
               </div>
               <div className="tags-container">
-                {data.tags.map( tag => (
-                  <span className="tag">{tag}</span>
+                {data.tags.map( (tag,index) => (
+                  <span className="tag" key={index}>{tag}</span>
                 ))}
               </div>
             </div>
