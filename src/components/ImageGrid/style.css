@@ -76,17 +76,21 @@
 
 .img-action-links a:hover, .img-action-links a:focus {
   color: rgb(182, 107, 252);
+  transition: .3s;
 }
 
 .card-title {
+  border-left: 4px solid rgb(145, 50, 235);
   font-size: 1.5rem;
   font-weight: 600;
   color: #fff;
+  padding-left: 7px;
   margin-bottom: 5px;
 }
 
 .img-description {
   color: rgb(231, 231, 231);
+  height: 3rem;
   margin-bottom: 5px;
 }
 
@@ -109,10 +113,16 @@
 }
 
 @media only screen and (max-width: 850px) {
+  .img-card {
+    margin-bottom: 1rem;
+  }
   .img-grid {
     grid-template-columns: 1fr;
   }
   .img-img, .hover-effect .hover-effect-accent {
     height: 275px;
+  }
+  .img-description {
+    height: 4rem;
   }
 }
