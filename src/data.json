@@ -1,5 +1,14 @@
 [
   {
+    "title": "Social Media SQL",
+    "github": "https://github.com/gerarjon/social-media-sql",
+    "link": "https://social-media-sql-gs.herokuapp.com/",
+    "image": "social-media-sql.gif",
+    "id": 3,
+    "tags": ["MySql", "Node", "Express", "Axios", "React", "Heroku"],
+    "description": "Users can create posts and comments! Your future favorite social media platform"
+  },
+  {
     "title" : "Event Booking",
     "github" :  "https://github.com/gerarjon/event-booking",
     "link" : "https://event-booking-gs.herokuapp.com/",
@@ -17,25 +26,6 @@
     "id" : 2,
     "tags" : ["Mongoose", "Express", "Materialize", "Axios", "React", "Heroku"],
     "description": "Using the Google Books API, users can view and save books that they have read or want to read!"
-  },
-  {
-    "title": "Social Media SQL",
-    "github": "https://github.com/gerarjon/social-media-sql",
-    "link": "https://social-media-sql-gs.herokuapp.com/",
-    "image": "social-media-sql.gif",
-    "id": 3,
-    "tags": ["MySql", "Node", "Express", "Axios", "React", "Heroku"],
-    "description": "Users can create posts and comments! Your future favorite social media platform"
-  },
-  {
-    "title" : "Quang's Burgers",
-    "github" : "https://github.com/gerarjon/Burger",
-    "link" : "https://burger-gs.herokuapp.com/burgers",
-    "image" : "burger.png",
-    "logo" : "burger-logo.png",
-    "id" : 4,
-    "tags" : ["Express", "Handlebars", "mySQL", "Heroku"],
-    "description": "Create burgers to eat! Created burgers gets added to Chef Quang's menu."
   },
   {
     "title" : "Flash Cards",

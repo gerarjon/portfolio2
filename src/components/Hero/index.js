@@ -1,16 +1,17 @@
 import React from 'react';
 import './style.css';
+import Type from '../Type';
 
 function Hero() {
+
   return(
-    <section id="home">
+    <section id="home" className='valign-wrapper'>
       <div className="title-container">
         <h5>
           Gerar Suaverdez
         </h5>
         <h1>
-          Full Stack 
-          <br></br>
+          <span className='title-list'><Type /></span>
           Developer
         </h1>
         <ul className='icons'>
